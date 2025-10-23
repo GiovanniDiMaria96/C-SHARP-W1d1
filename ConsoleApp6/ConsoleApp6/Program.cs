@@ -6,15 +6,22 @@ namespace ConsoleApp4
     {
         static void Main()
         {
+
+            //SENZA PARAMETRI
             Action NoParametri = () => { Console.WriteLine("Ciao Mondo"); };
             NoParametri();
-
+            /////////////
+            // UN SOLO PARAMETRO
             Action<string> Func = (nome) => { Console.WriteLine("Benvenuto " + nome); };
             Func("Giovanni");
-
+            //////////////
+            
+            // DUE PARAMETRI
             Action<int, int> Somma = (a, b) => { Console.WriteLine(a + b); };
             Somma(2, 6);
+            ///////////////
 
+            // ACTION CON METODO
             Action<List<string>> Iterazione = (lista) =>
             {
 
@@ -46,6 +53,7 @@ namespace ConsoleApp4
             }
 
         }
+//////////////////
 
 
     }
