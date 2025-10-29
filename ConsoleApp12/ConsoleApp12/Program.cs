@@ -6,7 +6,7 @@
         {
             Class1 class1 = new Class1();
 
-            Task t = Task.Run(() => class1.Stampa());
+            Task t = Task.Run(() => class1.Stampa()); //LAMBDA EXPRESSIONS HANDLES DIFFERENT PARAMETERS
             Console.WriteLine("Inizio");
             t.Wait();
             Console.WriteLine("Fine");
@@ -14,3 +14,4 @@
         }
     }
 }
+
