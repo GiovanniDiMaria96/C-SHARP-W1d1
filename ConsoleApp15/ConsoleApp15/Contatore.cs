@@ -37,5 +37,22 @@ namespace ConsoleApp15
 
     //    }
     //}
+
+            //USO DI INTERLOCK
+        //internal class Contatore
+    //{
+    //    public int conteggio = 0;
+        
+    //    public int Incrementa()
+    //    {
+    //        for (int i = 0; i < 100000; i++)
+    //        {
+    //            Interlocked.Increment(ref conteggio);
+    //        }
+    //        return conteggio;
+
+    //    }
+    //}
 }
+
 
