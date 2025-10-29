@@ -21,4 +21,21 @@ namespace ConsoleApp15
 
         }
     }
+            //USO DEL LOCK
+        //internal class Contatore
+    //{
+    //    public int conteggio = 0;
+    //    public object lockobject = new object();
+
+    //    public int Incrementa()
+    //    {
+    //        for (int i = 0; i < 100000; i++)
+    //        {
+    //            lock (lockobject) { conteggio++; }
+    //        }
+    //        return conteggio;
+
+    //    }
+    //}
 }
+
